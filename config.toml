@@ -1,5 +1,6 @@
 ## Basic Configuration
 baseurl = "http://www.rapfaria.com/"
+canonifyURLs = true
 languageCode = "en"
 publishDir = "docs"
 theme = "hyde-hyde"
