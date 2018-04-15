@@ -1,7 +1,7 @@
 ## Basic Configuration
 baseurl = "http://www.rapfaria.com/"
 languageCode = "en"
-
+publishDir = "docs"
 theme = "hyde-hyde"
 
 ## Hugo Built-in Features
