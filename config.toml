@@ -1,0 +1,45 @@
+## Basic Configuration
+baseurl = "http://www.rapfaria.com/"
+languageCode = "en"
+
+theme = "hyde-hyde"
+
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+# googleAnalytics = "your-google-analytics-id"
+# enableRobotsTXT = true
+
+## Site Settings
+[params]
+    author = "Raphael Faria"
+    title = "Rapfaria"
+    description = "Raphael Faria"
+    authorimage = "/img/profile_photo.png"
+    dateformat = "Jan 2, 2006"
+    # highlightjs = true
+    # highlightjsstyle = "github"
+    # please choose either GraphComment or Disqus
+    # GraphCommentId = "your-graph-comment-id"
+
+## Social Accounts
+[params.social]
+    github = "rapfaria"
+    instagram = "raphfaria"
+    # xing = "<username>"
+    # linkedin = "<username>"
+    # twitter = "<username>"
+    facebook = "rap.faria"
+    stackoverflow = "103281/rapfaria"
+    email = "raphaelpdefaria@gmail.com"
+
+## Main Menu
+[[menu.main]]
+    name = "Portfolio"
+    identifier = "portfolio"
+    weight = 100
+    url = "/portfolio/"
+[[menu.main]]
+    name = "Resume"
+    identifier = "resume"
+    weight = 200
+    url = "/resume/"
